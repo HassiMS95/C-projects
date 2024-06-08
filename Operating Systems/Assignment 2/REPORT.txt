@@ -1,0 +1,15 @@
+1.
+
+Autumn Troy - large: Discussed how each algorithm would run based on assignment page, as well as what necessary methods/functions are needed to be called within int main().
+
+Thomas Burns - medium: Discussed how to print every detail within int main() based on sample output.
+
+2.
+
+I think everything I did is correct based on my understanding of each scheduling algorithm. However, I'm not sure if int main() would be executed correctly.
+
+3.
+
+As mentioned above, I believe each scheduling algorithm should be working perfectly well based on the description of each part within the assignment.
+
+4. The main challenge for this assignment was to test the output since I had trouble with running and compiling the program using MobaXterm. That said, I made a makefile based on my basic understanding of the structure from previous assignments.

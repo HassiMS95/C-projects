@@ -1,0 +1,16 @@
+all: prog
+
+prog: prog.c 
+	gcc -o prog prog.c
+
+clean:
+	rm -f prog *.o
+
+run1:
+	prog -alg FIFO -input input1.txt
+run2:
+	prog -alg SJF -input input1.txt
+run3:
+	prog -alg PR -input input1.txt
+run4:
+	prog -alg RR -quantum 3  -input input1.txt

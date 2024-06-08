@@ -1,0 +1,5 @@
+OUTPUT:
+----------------------------
+wordcount.c
+wordcount with process id of 33520 counted words in input_file_1.txt: number of words is 6
+wordcount with process id of 22348 counted words in input_file_2.txt: number of words is 14

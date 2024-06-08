@@ -1,0 +1,13 @@
+1. 
+
+Shehryar Ahmed - Medium: Discussed about beginning scope of assignment and implementation of the ReadLine() method
+
+Melody Buezol - Light: Ran demonstration of how code should compile when using make command and running both files.
+
+Nikhil K. - Light: Discussed the similarities between how wordcount.c and multiple_wordcount.c work.
+
+2. I am not 100% sure everything is correct.
+
+3. I believe general code in the main method is working based on understanding what must be done. I have attempted to complete the ReadLine() method for wordcount.c. However, because of how I struggled in the first assignment before, I am not sure whether or not this version I have coded would work well.
+
+4. The challenge I had to face the most was understanding and starting the project since I had struggled understanding the assignment before, as well as understanding how the ReadLine() method should work. I would also have to mention for generating the output since I'm not sure how to exactly test it via fox machines since I transferred from UT Austin to UTSA last year. Therefore, I have no familiarity of doing so. multiple_wordcount.c has also been a challenge for me since one of the libraries I have implemented had given me trouble when compiling that file.

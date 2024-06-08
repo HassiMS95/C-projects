@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680398021 source:d:\college work\utsa\spring 2023\operating systems\assignments\assignment 3\assignment3\part3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,30 @@
+1.
+Autumn Troy - large: Discussed how each script should be run based on understanding the videos.
+
+Haven Kotara - medium: Guided me on how to approach each part of the assignment, noting how each part of the assignment is muilt on top of the previous part.
+
+Alfred Ramos - small: Confirmed with me waht md5sum does and whether or not a makefile is needed.
+
+2.
+
+I think everything I did is correct based on my understanding of the videos uploaded in order to guide me through the assignment. However, I'm not sure if the results are accurate enough based on the expected output.
+
+3. Although all 3 files are compiled correctly and well, I'm not sure if I would be getting the same exact results based on the expected output from the assignment page.
+
+4. The main challenge for this assignment was writing the helper methods for part2 and part3, as well as checking if everything is as written as it should for part1.
+
+5.
+
+Part 1:
+PS D:\College Work\UTSA\Spring 2023\Operating Systems\assignments\Assignment 3> ./part1.c part1sequence part1-output
+PS D:\College Work\UTSA\Spring 2023\Operating Systems\assignments\Assignment 3> ./part1.exe part1sequence part1-output
+
+Part 2:
+PS D:\College Work\UTSA\Spring 2023\Operating Systems\assignments\Assignment 3> ./part2.c part2sequence part2-output
+PS D:\College Work\UTSA\Spring 2023\Operating Systems\assignments\Assignment 3> ./part2.exe part2sequence part2-output
+Part 2 page faults: 61
+
+Part 3:
+PS D:\College Work\UTSA\Spring 2023\Operating Systems\assignments\Assignment 3> ./part3.c 256 4096 1024 part2sequence part3-output
+PS D:\College Work\UTSA\Spring 2023\Operating Systems\assignments\Assignment 3> ./part3.exe 256 4096 1024 part2sequence part3-output
+Part 2 page faults: 1

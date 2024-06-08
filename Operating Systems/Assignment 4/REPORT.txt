@@ -1,0 +1,73 @@
+1.
+Autumn Troy - large: Discussed how each script should be run based on understanding the assignment, as well as helping me understand Java programming beyond practicing on my own time.
+
+Connor Lindley - large: Discussed main logic of assignment, as well as understanding how both files should be compiled.
+
+Thomas Burns - small: Confirmed with him the format of part1.c based on the pseudo-code provided by the professor.
+
+Alfred Ramos: small: Discussed how the makefile should be constructed for running both files in different formats (in C and in Java).
+
+2.
+
+I think everything I did is correct. However, I'm not sure if the results are accurate enough based on the expected output.
+
+3. 
+
+Although all 2 files are compiled correctly and well, I'm not sure if I would be getting the correct results as expected.
+
+4.
+
+The main challenge for this assignment was writing the helper methods for part1, as well as checking if everything is as written as it should for part1 and part2.
+
+5.
+
+part1.c
+---------------------
+// N = 1000
+Sorting is done in 1.3ms when two threads are used
+Sorting is done in 3.0ms when one thread is used
+
+// N = 5000
+Sorting is done in 29.2ms when two threads are used
+Sorting is done in 60.2ms when one thread is used
+
+// N = 10000
+Sorting is done in 62.6ms when two threads are used
+Sorting is done in 187.2ms when one thread is used
+
+// N = 20000
+Sorting is done in 309.4ms when two threads are used
+Sorting is done in 629.9ms when one thread is used
+
+part2.java
+---------------------
+// N = 1000
+Sorting is done in 22.0ms when two threads are used
+Sorting is done in 1.0ms when one thread is used
+
+// N = 5000
+Sorting is done in 40.0ms when two threads are used
+Sorting is done in 20.0ms when one thread is used
+
+// N = 10000
+Sorting is done in 55.0ms when two threads are used
+Sorting is done in 121.0ms when one thread is used
+
+// N = 20000
+Sorting is done in 113.0ms when two threads are used
+Sorting is done in 282.0ms when one thread is used
+
+Part 3:
+ _______________________________________
+|___N___|____part1.c____|__part2.java___|
+|__1000_|___1.3_|___3.0_|__22.0_|___1.0_|
+|__5000_|__29.2_|__60.2_|__40.0_|__20.0_|
+|_10000_|__62.6_|_187.2_|__55.0_|_121.0_|
+|_20000_|_309.4_|_629.9_|_113.0_|_282.0_|
+-----------------------------------------
+
+Based on the results, I believe there is a big difference between the timings because of the languages used when testing each value of N. 
+I think these results would make sense since C doesn't support threading but uses pointers.
+However, Java does have support for threading but doesn't use pointers.
+Another key difference is based on the garbage collection process; 
+it needs to be managed manually in C, while it is automatically managed in Java.
